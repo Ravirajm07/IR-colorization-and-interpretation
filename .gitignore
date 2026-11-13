@@ -1,0 +1,15 @@
+.agents/
+.codex/
+ir-warriors-mvp/.env
+ir-warriors-mvp/.tmp/
+ir-warriors-mvp/**/__pycache__/
+ir-warriors-mvp/.pytest_cache/
+ir-warriors-mvp/data/raw/*
+ir-warriors-mvp/data/processed/*
+ir-warriors-mvp/data/patches/*
+ir-warriors-mvp/data/samples/*
+ir-warriors-mvp/data/boundaries/*
+ir-warriors-mvp/outputs/*
+ir-warriors-mvp/checkpoints/*
+!ir-warriors-mvp/**/.gitkeep
+*.zip

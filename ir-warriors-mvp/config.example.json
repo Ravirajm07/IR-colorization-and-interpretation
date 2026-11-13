@@ -1,0 +1,18 @@
+{
+  "patch_size": 256,
+  "stride": 192,
+  "min_valid_fraction": 0.75,
+  "thermal_range_kelvin": [250.0, 330.0],
+  "reflectance_range": [0.0, 0.4],
+  "gamma": 0.454545,
+  "epochs": 100,
+  "batch_size": 4,
+  "learning_rate": 0.0002,
+  "betas": [0.5, 0.999],
+  "lambda_l1": 100.0,
+  "lambda_feature": 10.0,
+  "lambda_vgg": 5.0,
+  "generator_filters": 64,
+  "generator_residual_blocks": 6,
+  "discriminator_scales": 2
+}
